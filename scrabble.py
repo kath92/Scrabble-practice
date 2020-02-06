@@ -1,5 +1,3 @@
-# Cheat sheet: https://github.com/adrielklein/scrabble-word-finder/blob/master/app/finders/word_finder.py
-# https://codereview.stackexchange.com/questions/172263/simplifying-a-scrabble-word-finder-python/172288
 import random
 from collections import Counter
 
@@ -120,27 +118,3 @@ def practise(words):
                 #user_ans = input("")
 
 print(practise(words))
-############### TESTING AREA ####################
-
-# user_ans = ""
-# play = True
-
-# c = ""
-# while not c == "c":
-#
-#     print("looping...")
-#     c = "c"
-
-#
-#
-# while play:
-#     user_ans = input("Enter a word: ")
-#     if user_ans == "c" or user_ans == "C":
-#         print("breaking the loop...")
-#         play = False
-
-############### IDEAS/ISSUES ############################
-
-# Create 2 modes = practice and play againt 'the computer'. How to immplement grid there...
-# How to create grid and graphical representation? Maybe do sudoku first...
-# Learn UI... dragging letters...
